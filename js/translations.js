@@ -33,8 +33,8 @@ const translations = {
         // ⚠️ REMPLACE PAR TON VRAI EMAIL
         email_text: "votre.email@domaine.tn",
         hours_label: "Horaires d'ouverture :",
-        hours_mon_fri: "Lundi - Vendredi : 09h00 - 19h00",
-        hours_sat: "Samedi : 09h00 - 13h00",
+        hours_mon_fri: "Lundi - Vendredi : 08h30 - 16h00",
+        hours_sat: "Samedi : 08h00 - 13h30",
         hours_sun: "Dimanche : Fermé",
 
         // --- SERVICES ---
@@ -117,8 +117,8 @@ const translations = {
         email_label: "البريد الإلكتروني :",
         email_text: "بريدك@النطاق.tn",
         hours_label: "أوقات العمل :",
-        hours_mon_fri: "الإثنين - الجمعة : 09:00 - 19:00",
-        hours_sat: "السبت : 09:00 - 13:00",
+        hours_mon_fri: "الإثنين - الجمعة : 08:30 - 16:00",
+        hours_sat: "السبت : 08:30 - 13:30",
         hours_sun: "الأحد : مغلق",
 
         // --- SERVICES ---
