@@ -83,7 +83,7 @@ const translations = {
         rdv_emergency: "🚨 URGENCE VITALE (Douleur thoracique, essoufflement brutal, malaise, paralysie) : Composez le 190 (SAMU Tunisie) ou 112 (Urgences Européennes). N'appelez pas le cabinet, perdez pas de temps.",
 
         // --- FOOTER ---
-        footer_copyright: "© 2024 Dr. [VOTRE NOM] - Tous droits réservés.",
+        footer_copyright: "© 2026 Dr. Slim Chtourou - Tous droits réservés.",
         footer_mentions: "Mentions Légales | Protection Données (Loi 2004-63) | Hébergeur : [VOTRE HÉBERGEUR]"
     },
     ar: {
