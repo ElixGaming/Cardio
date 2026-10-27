@@ -101,7 +101,7 @@ const translations = {
         nav_rdv: "حجز موعد",
 
         // --- HERO ---
-        hero_title: "د. [اسمك الكامل]",
+        hero_title: "الدكتور سليم شطورو",
         hero_subtitle: "طبيب أخصائي في أمراض القلب - قسطرة قلبية",
         hero_tagline: "صحة قلبك، أولويتنا المطلقة.",
         hero_btn_rdv: "حجز موعد",
