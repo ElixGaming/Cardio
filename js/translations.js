@@ -28,7 +28,7 @@ const translations = {
         address_text: "Avenue Magida Boulila, Immeuble Lafrane Centre<br>1er étage, Bureau 3<br>Sfax El Jadida 3027, Sfax, Tunisie",
         phone_label: "Téléphone :",
         // ⚠️ REMPLACE +216 XX XXX XXX PAR TON VRAI NUMÉRO
-        phone_text: "+216 XX XXX XXX",
+        phone_text: "+216 74 240 844",
         email_label: "Email :",
         // ⚠️ REMPLACE PAR TON VRAI EMAIL
         email_text: "votre.email@domaine.tn",
@@ -111,9 +111,11 @@ const translations = {
         cabinet_title: "معلومات العيادة",
         address_label: "العنوان :",
         // ADRESSE EN ARABE LITTÉRAIRE (Ordre logique RTL)
-        address_text: "أفينيدة أم كلثوم، عمارة لافران سنتر<br>الطابق الأول، مكتب رقم 3<br>صفاقس الجديدة 3027، صفاقس، تونس",
+        address_text: "شارع مجيدة بوليلة، عمارة لافران سنتر
+الطابق الأول، مكتب رقم 3
+صفاقس الجديدة 3027، صفاقس، تونس",
         phone_label: "الهاتف :",
-        phone_text: "+216 XX XXX XXX",
+        phone_text: "+216 74 240 844",
         email_label: "البريد الإلكتروني :",
         email_text: "بريدك@النطاق.tn",
         hours_label: "أوقات العمل :",
@@ -158,7 +160,7 @@ const translations = {
         // --- RDV ---
         rdv_title: "حجز المواعيد",
         rdv_subtitle: "اختر الطريقة التي تناسبك.",
-        rdv_online_title: "عبر الإنترنت (Doctolib / Maiia / KelDoc / منصة خاصة)",
+        rdv_online_title: "عبر الإنترنت (Med.tn)",
         rdv_online_text: "متاح 24س/24. تأكيد فوري عبر رسالة قصيرة/بريد. تذكير آلي قبل 48 ساعة. إدارة إلغاء/تأجيل سهلة.",
         rdv_online_btn: "الوصول للمنصة",
         rdv_phone_title: "عبر الهاتف",
