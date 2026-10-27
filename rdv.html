@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Prise de rendez-vous en ligne ou par téléphone au cabinet de cardiologie Dr. [VOTRE NOM] à Sfax. Urgences : 190.">
+    <title>Rendez-Vous - Dr. [VOTRE NOM] - Sfax</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
+<header class="header"><nav class="navbar container">
+    <a href="index.html" class="logo"><i class="fas fa-heartbeat"></i> Dr. [VOTRE NOM]</a>
+    <button class="menu-toggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
+    <div class="nav-links"><a href="index.html#accueil" data-i18n="nav_accueil">Accueil</a><a href="services.html" data-i18n="nav_services">Services</a><a href="conseils.html" data-i18n="nav_conseils">Conseils</a><a href="rdv.html" class="btn btn-primary active" data-i18n="nav_rdv">Rendez-vous</a></div>
+    <div class="lang-switcher"><button id="lang-toggle">FR</button></div>
+</nav></header>
+
+<main>
+    <section class="section" style="background: linear-gradient(135deg, var(--primary), var(--primary-light)); color: white; text-align: center; padding: 130px 0 70px;">
+        <div class="container">
+            <h1 data-i18n="rdv_title" style="font-size: clamp(2rem, 5vw, 3rem);">Prise de Rendez-Vous</h1>
+            <p class="section-subtitle" style="color: rgba(255,255,255,0.9);" data-i18n="rdv_subtitle">Choisissez le mode qui vous convient le mieux. Disponibilité rapide pour les urgences cardiaques.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="rdv-options">
+                <!-- OPTION 1 : EN LIGNE -->
+                <article class="rdv-card online">
+                    <div class="icon-lg"><i class="fas fa-globe"></i></div>
+                    <h3 data-i18n="rdv_online_title">En Ligne (Doctolib / Maiia / KelDoc)</h3>
+                    <p data-i18n="rdv_online_text">Disponible 24h/24. Confirmation immédiate par SMS/Email. Rappel automatique 48h avant. Gestion annulation/report facile sans appeler.</p>
+                    <!-- ⚠️ REMPLACE LE LIEN CI-DESSOUS PAR TON LIEN DOCTOLIB/MAIIA RÉEL -->
+                    <a href="https://www.doctolib.fr/votre-profil" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-block" data-i18n="rdv_online_btn"><i class="fas fa-external-link-alt btn-icon"></i> Accéder à la plateforme</a>
+                </article>
+
+                <!-- OPTION 2 : TÉLÉPHONE -->
+                <article class="rdv-card">
+                    <div class="icon-lg"><i class="fas fa-phone-alt"></i></div>
+                    <h3 data-i18n="rdv_phone_title">Par Téléphone</h3>
+                    <p data-i18n="rdv_phone_text">Notre secrétariat vous accueille pour les urgences, demandes spécifiques ou si vous préférez l'échange humain direct.</p>
+                    <a href="tel:+216XXXXXXXXX" class="btn btn-primary btn-block" data-i18n="rdv_phone_btn"><i class="fas fa-phone btn-icon"></i> Appeler maintenant</a>
+                    <p style="margin-top: 15px; font-size: 0.9rem; color: var(--text-medium);">Horaires : <span data-i18n="hours_mon_fri">Lun-Ven 9h-19h</span> / <span data-i18n="hours_sat">Sam 9h-13h</span></p>
+                </article>
+            </div>
+
+            <!-- BANDEAU URGENCE VITALE (TRÈS IMPORTANT) -->
+            <div class="emergency-banner" role="alert" aria-live="assertive">
+                <div class="icon"><i class="fas fa-ambulance"></i></div>
+                <div>
+                    <strong data-i18n="rdv_emergency">🚨 URGENCE VITALE : Composez le 190 (SAMU Tunisie) ou 112.</strong>
+                    <p>Douleur thoracique oppressive &gt; 15 min, essoufflement brutal, malaise, trouble de la parole, paralysie faciale. N'attendez pas, n'appelez pas le cabinet.</p>
+                </div>
+            </div>
+
+            <!-- INFOS PRATIQUES RDV -->
+            <div class="info-cards-rdv">
+                <article class="card" style="border-top-color: var(--accent);">
+                    <div class="card-icon" style="background: var(--accent);"><i class="fas fa-file-medical"></i></div>
+                    <h3>À prévoir pour la consultation</h3>
+                    <ul>
+                        <li>Carte Vitale (CNAM) &amp; Attestation Mutuelle à jour</li>
+                        <li>Ordonnances &amp; Traitements en cours (liste ou boîtes)</li>
+                        <li>Anciens examens : ECG, Écho, Bilans sanguins, Courriers spécialistes</li>
+                        <li>Compte-rendu opératoire si antécédent chirurgical cardiaque</li>
+                    </ul>
+                </article>
+                <article class="card" style="border-top-color: var(--secondary);">
+                    <div class="card-icon"><i class="fas fa-credit-card"></i></div>
+                    <h3>Moyens de Paiement &amp; Remboursement</h3>
+                    <ul>
+                        <li>Carte Bancaire / Espèces / Chèque acceptés</li>
+                        <li>Tiers Payant : CNAM (Maladie, Maternité, AT/MP), AMO, ALD</li>
+                        <li>Conventionné Secteur 1 / 2 (Préciser au secrétariat lors du RDV)</li>
+                        <li>Facture dématérialisée envoyée par email sur demande</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer"><div class="container"><div class="footer-bottom" style="justify-content:center;"><p data-i18n="footer_copyright">© 2024 Dr. [VOTRE NOM]</p></div></div></footer>
+<script src="js/translations.js"></script><script src="js/main.js"></script>
+</body>
+</html>

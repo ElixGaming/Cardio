@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cabinet de cardiologie du Dr. [VOTRE NOM] à Sfax (Tunisie). Consultations, Écho-Doppler, Épreuve d'effort, Holter, Prévention. RDV en ligne.">
+    <title>Cabinet de Cardiologie - Dr. [VOTRE NOM] - Sfax</title>
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon (à mettre dans assets/) -->
+    <link rel="icon" href="assets/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="assets/logo.png">
+</head>
+<body>
+
+<header class="header" id="header" role="banner">
+    <nav class="navbar container" aria-label="Navigation principale">
+        <a href="index.html" class="logo" aria-label="Accueil - Dr. Slim Chtourou">
+            <!-- SI TU AS UN LOGO : <img src="assets/logo.png" alt=""> SINON L'ICÔNE FAIT L'AFFAIRE -->
+            <i class="fas fa-heartbeat" style="font-size: 1.8rem;"></i> Dr. Slim Chtourou
+        </a>
+        
+        <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navLinks"><i class="fas fa-bars"></i></button>
+
+        <div class="nav-links" id="navLinks" role="navigation">
+            <a href="index.html#accueil" data-i18n="nav_accueil">Accueil</a>
+            <a href="services.html" data-i18n="nav_services">Services</a>
+            <a href="conseils.html" data-i18n="nav_conseils">Conseils</a>
+            <a href="rdv.html" class="btn btn-primary" data-i18n="nav_rdv">Rendez-vous</a>
+        </div>
+
+        <div class="lang-switcher" role="group" aria-label="Choix de la langue">
+            <button id="lang-toggle" type="button" aria-pressed="false">FR</button>
+        </div>
+    </nav>
+</header>
+
+<main id="main-content" role="main">
+    <!-- HERO SECTION -->
+    <section class="hero" id="accueil" aria-labelledby="hero-title">
+        <div class="hero-content">
+            <h1 id="hero-title" data-i18n="hero_title">Dr. Slim Chtourou</h1>
+            <h2 data-i18n="hero_subtitle">Médecin Cardiologue - Cardiologue Interventionnel</h2>
+            <p class="hero-tagline" data-i18n="hero_tagline">Votre santé cardiaque, notre priorité absolue.</p>
+            <div class="hero-buttons">
+                <a href="rdv.html" class="btn btn-lg" data-i18n="hero_btn_rdv"><i class="fas fa-calendar-check btn-icon"></i> Prendre RDV</a>
+                <a href="tel:+216XXXXXXXXX" class="btn btn-lg btn-accent" data-i18n="hero_btn_tel"><i class="fas fa-phone btn-icon"></i> Appeler</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- INFOS CABINET SECTION -->
+    <section class="section" style="background: var(--white);" id="cabinet" aria-labelledby="cabinet-title">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title" id="cabinet-title" data-i18n="cabinet_title">Informations du Cabinet</h2>
+            </header>
+
+            <div class="info-grid">
+                <article class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4 data-i18n="address_label">Adresse</h4>
+                    <address data-i18n="address_text">Avenue Magida Boulila, Immeuble Lafrane Centre<br>1er étage, Bureau 3<br>Sfax El Jadida 3027, Sfax, Tunisie</address>
+                </article>
+                <article class="info-card">
+                    <i class="fas fa-phone"></i>
+                    <h4 data-i18n="phone_label">Téléphone</h4>
+                    <a href="tel:+216XXXXXXXXX" data-i18n="phone_text">+216 XX XXX XXX</a>
+                </article>
+                <article class="info-card">
+                    <i class="fas fa-envelope"></i>
+                    <h4 data-i18n="email_label">Email</h4>
+                    <a href="mailto:votre.email@domaine.tn" data-i18n="email_text">votre.email@domaine.tn</a>
+                </article>
+                <article class="info-card">
+                    <i class="fas fa-clock"></i>
+                    <h4 data-i18n="hours_label">Horaires</h4>
+                    <p data-i18n="hours_mon_fri">Lundi - Vendredi : 09h00 - 19h00</p>
+                    <p data-i18n="hours_sat">Samedi : 09h00 - 13h00</p>
+                    <p data-i18n="hours_sun">Dimanche : Fermé</p>
+                </article>
+            </div>
+
+            <!-- GOOGLE MAPS EMBED SFAX (Immeuble Lafrane Centre) -->
+            <div class="map-container" role="img" aria-label="Localisation du cabinet Avenue Magida Boulila, Sfax">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3213.85123456789!2d10.7601234!3d34.7401234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd12345678901%3A0xabcdef123456789!2sImmeuble%20Lafrane%20Centre%2C%20Av.%20Magida%20Boulila%2C%20Sfax%203027!5e0!3m2!1sfr!2stn!4v1700000000000!5m2!1sfr!2stn" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0; border-radius: 12px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Localisation Cabinet Dr. [VOTRE NOM] - Immeuble Lafrane Centre, Sfax">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="section" style="background: var(--bg-light);">
+        <div class="container" style="text-align:center;">
+            <h2 class="section-title" style="margin: 0 auto 1rem;">Besoin d'une consultation ?</h2>
+            <p class="section-subtitle" style="margin: 0 auto 2rem;">Disponible pour tout bilan cardiaque, suivi d'insuffisance cardiaque, hypertension, troubles du rythme ou avis pré-opératoire.</p>
+            <a href="rdv.html" class="btn btn-primary btn-lg"><i class="fas fa-calendar-plus btn-icon"></i> <span data-i18n="hero_btn_rdv">Prendre RDV</span></a>
+        </div>
+    </section>
+</main>
+
+<footer class="footer" role="contentinfo">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Dr. [VOTRE NOM]</h4>
+                <p>Médecin Cardiologue<br>Spécialisé en Rythmologie & Cardiologie Interventionnelle</p>
+                <p style="margin-top:1rem;"><i class="fas fa-hospital"></i> Exerce à : [Nom de votre Clinique/Hôpital à Sfax]</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="cabinet_title">Cabinet Sfax</h4>
+                <div class="contact-item"><i class="fas fa-map-marker-alt"></i> <span data-i18n="address_text">Avenue Magida Boulila, Immeuble Lafrane Centre, 1er étage, Bureau 3, Sfax El Jadida 3027</span></div>
+                <div class="contact-item"><i class="fas fa-phone"></i> <a href="tel:+216XXXXXXXXX" data-i18n="phone_text">+216 XX XXX XXX</a></div>
+                <div class="contact-item"><i class="fas fa-envelope"></i> <a href="mailto:votre.email@domaine.tn" data-i18n="email_text">votre.email@domaine.tn</a></div>
+            </div>
+            <div class="footer-col">
+                <h4>Liens Rapides</h4>
+                <ul>
+                    <li><a href="services.html" data-i18n="nav_services">Nos Services & Examens</a></li>
+                    <li><a href="conseils.html" data-i18n="nav_conseils">Conseils Prévention</a></li>
+                    <li><a href="rdv.html" data-i18n="nav_rdv">Prendre Rendez-Vous</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer_copyright">© 2024 Dr. Slim Chtourou - Tous droits réservés.</p>
+            <div class="social-links">
+                <!-- <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Doctolib"><i class="fas fa-calendar-alt"></i></a> -->
+            </div>
+            <p data-i18n="footer_mentions">Mentions Légales | Protection Données | Hébergeur : [VOTRE HÉBERGEUR]</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/translations.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
