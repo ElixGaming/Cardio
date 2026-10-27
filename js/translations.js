@@ -74,7 +74,7 @@ const translations = {
         // --- RDV ---
         rdv_title: "Prise de Rendez-Vous",
         rdv_subtitle: "Choisissez le mode qui vous convient le mieux.",
-        rdv_online_title: "En Ligne (Doctolib / Maiia / KelDoc / Propre plateforme)",
+        rdv_online_title: "En Ligne (Med.tn)",
         rdv_online_text: "Disponible 24h/24. Confirmation immédiate SMS/Email. Rappel auto 48h avant. Gestion annulation/report facile.",
         rdv_online_btn: "Accéder à la plateforme",
         rdv_phone_title: "Par Téléphone",
