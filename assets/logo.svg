@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 280" fill="none">
+  <defs>
+    <!-- Dégradé Rouge/Orange conforme au logo -->
+    <linearGradient id="heartGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E52d27" />
+      <stop offset="60%" stop-color="#F27121" />
+      <stop offset="100%" stop-color="#FF3366" />
+    </linearGradient>
+  </defs>
+
+  <!-- Cœur stylisé avec onde ECG -->
+  <path d="M 130 90 
+           C 105 50, 45 45, 30 95 
+           C 10 155, 65 210, 140 245 
+           C 200 210, 260 160, 255 105 
+           C 250 60, 195 45, 160 80 
+           C 142 96, 132 120, 145 145 
+           C 155 165, 185 180, 180 205
+           L 185 205
+           L 190 195
+           L 196 220
+           L 204 180
+           L 212 210
+           L 218 200
+           L 235 200" 
+        stroke="url(#heartGradient)" 
+        stroke-width="16" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+</svg>
