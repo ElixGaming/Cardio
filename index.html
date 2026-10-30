@@ -43,15 +43,26 @@
 </header>
 
 <main id="main-content" role="main">
-    <!-- HERO SECTION -->
-    <section class="hero" id="accueil" aria-labelledby="hero-title" style="background: linear-gradient(145deg, rgba(0,77,138,0.97) 0%, rgba(0,150,199,0.92) 100%);">
+        <!-- HERO SECTION -->
+    <section class="hero" id="accueil" aria-labelledby="hero-title" style="background: linear-gradient(145deg, rgba(0,77,138,0.97) 0%, rgba(0,150,199,0.92) 100%); padding-top: 110px;">
         <div class="hero-content">
-            <h1 id="hero-title" data-i18n="hero_title">Dr. Slim Chtourou</h1>
+
+            <!-- EMPLACEMENT VIDÉO (Au-dessus du nom) -->
+            <div class="hero-video-container" style="max-width: 650px; margin: 0 auto 2rem; border-radius: 16px; overflow: hidden; box-shadow: 0 12px 35px rgba(0,0,0,0.3); border: 2px solid rgba(255,255,255,0.2); background: #000;">
+                <video autoplay muted loop playsinline controls style="width: 100%; height: auto; display: block;">
+                    <!-- Décommentez ou ajustez le nom du fichier vidéo une fois placé dans /assets -->
+                    <source src="assets/presentation.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+                </video>
+            </div>
+
+            <!-- TEXTE PRÉSENTATION -->
+            <h1 id="hero-title" data-i18n="hero_title">Dr. Chtourou</h1>
             <h2 data-i18n="hero_subtitle">Médecin Cardiologue - Cardiologue Interventionnel</h2>
             <p class="hero-tagline" data-i18n="hero_tagline">Votre santé cardiaque, notre priorité absolue.</p>
             <div class="hero-buttons">
                 <a href="rdv.html" class="btn btn-lg" data-i18n="hero_btn_rdv"><i class="fas fa-calendar-check btn-icon"></i> Prendre RDV</a>
-                <a href="tel:+21674240844" class="btn btn-lg btn-accent" data-i18n="hero_btn_tel"><i class="fas fa-phone btn-icon"></i> Appeler</a>
+                <a href="tel:+216XXXXXXXXX" class="btn btn-lg btn-accent" data-i18n="hero_btn_tel"><i class="fas fa-phone btn-icon"></i> Appeler</a>
             </div>
         </div>
     </section>
