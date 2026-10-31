@@ -67,6 +67,30 @@ window.translations = {
         rdv_emergency: "🚨 URGENCE VITALE : Composez le 190 (SAMU) ou 112. Douleur thoracique, essoufflement brutal, malaise. N'appelez pas le cabinet.",
         footer_copyright: "© 2024 Dr. Chtourou - Tous droits réservés.",
         footer_mentions: "Mentions Légales | Protection des données"
+                // --- MODULE RESERVATION ---
+        res_select_date: "1. Choisissez une date",
+        res_date_label: "Date souhaitée de consultation :",
+        res_searching: "Consultation du calendrier en temps réel...",
+        res_no_slots: "Aucun créneau disponible pour cette date.",
+        res_weekend: "Le cabinet est fermé le samedi et le dimanche.",
+        res_patient_info: "2. Vos informations",
+        res_selected_slot: "Créneau sélectionné :",
+        res_nom: "Nom *",
+        res_prenom: "Prénom *",
+        res_tel: "Téléphone *",
+        res_email: "Adresse Email",
+        res_motif: "Motif de consultation",
+        res_confirm: "Confirmer la réservation",
+        res_success_title: "Rendez-vous confirmé !",
+        res_success_text: "Votre rendez-vous a été ajouté à l'agenda du Dr. Slim Chtourou.",
+        res_to_prepare: "À prévoir pour la consultation",
+        res_prepare_1: "Carnet de santé / Prise en charge CNAM",
+        res_prepare_2: "Dernières ordonnances et traitements en cours",
+        res_prepare_3: "Anciens bilans cardiaques (ECG, Écho, Biologie)",
+        res_phone_title: "Prise de RDV par téléphone",
+        res_phone_text: "Joignez le secrétariat pendant les heures d'ouverture :",
+        res_api_error: "Erreur lors de la connexion au calendrier. Réessayez.",
+        res_slot_taken: "Ce créneau a été réservé entre-temps. Veuillez en choisir un autre."
     },
     ar: {
         lang_label: "العربية",
@@ -135,6 +159,30 @@ window.translations = {
         rdv_emergency: "🚨 طوارئ حيوية: اتصل 190 (SAMU) أو 112. ألم صدري، ضيق تنفس، إغماء. لا تتصل بالعيادة.",
         footer_copyright: "© 2024 د. شتورو - جميع الحقوق محفوظة.",
         footer_mentions: "الإشعارات القانونية | حماية البيانات"
+                // --- MODULE RESERVATION ---
+        res_select_date: "١. اختر تاريخاً",
+        res_date_label: "التاريخ المطلوب للاستشارة :",
+        res_searching: "جارٍ الاستعلام عن المواعيد المتوفرة...",
+        res_no_slots: "لا توجد مواعيد متوفرة في هذا التاريخ.",
+        res_weekend: "العيادة مغلقة يوم السبت والأحد.",
+        res_patient_info: "٢. معلومات المريض",
+        res_selected_slot: "الموعد المحدد :",
+        res_nom: "الاسم العائلي *",
+        res_prenom: "الاسم الشخصي *",
+        res_tel: "الهاتف *",
+        res_email: "البريد الإلكتروني",
+        res_motif: "سبب الاستشارة",
+        res_confirm: "تأكيد الحجز",
+        res_success_title: "تم تأكيد الموعد!",
+        res_success_text: "تمت إضافته إلى جدول الدكتور سليم شتورو.",
+        res_to_prepare: "ما يجب إحضاره للاستشارة",
+        res_prepare_1: "سجل الصحة / الوثائق التأمينية",
+        res_prepare_2: "آخر وصفات طبية وعلاجات جارية",
+        res_prepare_3: "الفحوصات القلبية السابقة (ECG, صدى, تحاليل)",
+        res_phone_title: "حجز عبر الهاتف",
+        res_phone_text: "تواصل مع السكرتارية خلال أوقات العمل :",
+        res_api_error: "خطأ في الاتصال بالتقويم. حاول مجدداً.",
+        res_slot_taken: "تم حجز هذا الموعد سابقاً. اختر موعداً آخر."
     }
 };
 
