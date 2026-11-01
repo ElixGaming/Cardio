@@ -100,7 +100,7 @@ window.translations = {
         lang_label: "العربية",
         lang_ar: "FR",
         dir: "rtl",
-        site_title: "عيادة أمراض القلب - د. شتورو - صفاقس",
+        site_title: "عيادة أمراض القلب - الدكتور سليم شطورو  - صفاقس",
         meta_desc: "طبيب قلب بصفاقس. استشارات، صدى، جهد، هولتر، وقاية. حجز عبر Med.tn.",
         nav_accueil: "الرئيسية",
         nav_services: "خدماتنا",
