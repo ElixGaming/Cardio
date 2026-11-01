@@ -94,6 +94,7 @@ window.translations = {
         res_prepare_3: "Anciens bilans cardiaques (ECG, Écho, Biologie)",
         res_phone_title: "Prise de RDV par téléphone",
         res_phone_text: "Joignez le secrétariat pendant les heures d'ouverture :"
+        res_id_patient: "Identifiant patient (facultatif)",
     },
     ar: {
         lang_label: "العربية",
@@ -189,6 +190,7 @@ window.translations = {
         res_prepare_3: "الفحوصات القلبية السابقة",
         res_phone_title: "حجز عبر الهاتف",
         res_phone_text: "تواصل مع السكرتارية خلال أوقات العمل :"
+        res_id_patient: "معرّف المريض (اختياري)",
     }
 };
 
